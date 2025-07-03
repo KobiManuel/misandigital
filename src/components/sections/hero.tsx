@@ -2,10 +2,12 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { AnimatedWrapper } from "@/components/animations/animated-wrapper";
 import { MoveRight } from "lucide-react";
+import SwirlingSVGs from "../animations/swirling-svgs";
 
 const HeroSection = () => {
     return (
-        <section className="py-20 sm:py-28 lg:py-36 bg-gradient-to-b from-background to-card/50">
+        <section className="relative py-20 sm:py-28 lg:py-36 bg-gradient-to-b from-background to-card/50 overflow-hidden">
+            <SwirlingSVGs />
             <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
                 <AnimatedWrapper>
                     <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-white">

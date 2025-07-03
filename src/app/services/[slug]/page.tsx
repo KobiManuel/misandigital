@@ -40,7 +40,7 @@ export default function ServiceDetailPage({ params }: Props) {
         notFound();
     }
 
-    const { title, description, icon: Icon } = service;
+    const { title, description, icon: Icon, slug } = service;
 
     return (
         <div className="bg-background">
@@ -61,12 +61,11 @@ export default function ServiceDetailPage({ params }: Props) {
                     <AnimatedWrapper delay={200}>
                          <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
                            <Image
-                                src={`https://placehold.co/600x400.png`}
-                                alt={title}
+                                src={`https://source.unsplash.com/600x400/?${slug}`}
+                                alt={`Visual representation of ${title}`}
                                 width={600}
                                 height={400}
                                 className="w-full h-full object-cover"
-                                data-ai-hint={title}
                             />
                         </div>
                     </AnimatedWrapper>

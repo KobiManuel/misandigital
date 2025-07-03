@@ -4,11 +4,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 
 const projects = [
-    { title: "Project One", image: "https://placehold.co/600x400.png", category: "Branding", hint: "branding" },
-    { title: "Project Two", image: "https://placehold.co/600x400.png", category: "Web Development", hint: "web development" },
-    { title: "Project Three", image: "https://placehold.co/600x400.png", category: "SEO", hint: "SEO results" },
-    { title: "Project Four", image: "https://placehold.co/600x400.png", category: "Social Media", hint: "social media" },
-    { title: "Project Five", image: "https://placehold.co/600x400.png", category: "E-commerce", hint: "ecommerce" },
+    { title: "Brand Identity Revamp", image: "https://images.unsplash.com/photo-1619451428271-87a2a0478083?w=600&h=400&q=80", category: "Branding" },
+    { title: "Corporate Website Launch", image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80", category: "Web Development" },
+    { title: "Organic Search Growth", image: "https://images.unsplash.com/photo-1559526324-593bc0a63da8?w=600&h=400&q=80", category: "SEO" },
+    { title: "Social Engagement Campaign", image: "https://images.unsplash.com/photo-1634942537034-142827441b42?w=600&h=400&q=80", category: "Social Media" },
+    { title: "E-commerce Store Optimization", image: "https://images.unsplash.com/photo-1522204523234-8729aa6e3d54?w=600&h=400&q=80", category: "E-commerce" },
 ]
 
 const ProjectsSection = () => {
@@ -42,7 +42,6 @@ const ProjectsSection = () => {
                                                     width={600}
                                                     height={400}
                                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                                                    data-ai-hint={project.hint}
                                                 />
                                                 <div className="absolute inset-0 bg-black/50 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                                     <h3 className="text-xl font-bold text-white">{project.title}</h3>

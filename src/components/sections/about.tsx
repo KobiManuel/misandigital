@@ -22,12 +22,11 @@ const AboutSection = () => {
                      <AnimatedWrapper delay={200}>
                         <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
                            <Image
-                                src="https://placehold.co/600x400.png"
-                                alt="About MisanDigital"
+                                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&q=80"
+                                alt="Team collaborating in a modern office"
                                 width={600}
                                 height={400}
                                 className="w-full h-full object-cover"
-                                data-ai-hint="team meeting"
                             />
                         </div>
                     </AnimatedWrapper>

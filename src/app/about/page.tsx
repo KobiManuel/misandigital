@@ -22,12 +22,11 @@ export default function AboutPage() {
             <AnimatedWrapper delay={200}>
                 <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
                     <Image
-                        src="https://placehold.co/600x400.png"
-                        alt="MisanDigital Team"
+                        src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&q=80"
+                        alt="Creative team working on a project"
                         width={600}
                         height={400}
                         className="w-full h-full object-cover"
-                        data-ai-hint="creative team working"
                     />
                 </div>
             </AnimatedWrapper>

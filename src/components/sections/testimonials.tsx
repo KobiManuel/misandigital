@@ -9,22 +9,19 @@ const testimonials = [
         name: "Rafa",
         title: "Marketing Team",
         quote: "Working with Misan Digital has been a transformative experience characterized by exceptional professionalism and unwavering support. Their team consistently demonstrates a proactive approach, anticipating our needs and providing tailored solutions.",
-        avatar: "https://placehold.co/100x100.png",
-        hint: "woman portrait"
+        avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&q=80&fit=crop",
     },
     {
         name: "Youssef Dimachk",
         title: "Group General Manager, MUST GROUP",
         quote: "A straight forward and clear communication allowed us to move forward within a perfectly adapted timeline. They were helpful at anytime and able to understand our goals and needs and the result resonates with our version.",
-        avatar: "https://placehold.co/100x100.png",
-        hint: "man portrait"
+        avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&q=80&fit=crop",
     },
     {
         name: "Bashir El Alieh",
         title: "Sales & Marketing Manager, TASKEEN",
         quote: "I sincerely appreciate the time your teams spent reviewing our website design and recommending ideas. Your support was very helpful and gave us a new positive spirit. I greatly appreciate the care you have provided to us.",
-        avatar: "https://placehold.co/100x100.png",
-        hint: "man smiling"
+        avatar: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=100&h=100&q=80&fit=crop",
     },
 ];
 
@@ -53,7 +50,7 @@ const TestimonialsSection = () => {
                                         <Card className="bg-background">
                                             <CardContent className="p-8 text-center flex flex-col items-center">
                                                 <Avatar className="w-20 h-20 mb-4">
-                                                    <AvatarImage src={testimonial.avatar} alt={testimonial.name} data-ai-hint={testimonial.hint} />
+                                                    <AvatarImage src={testimonial.avatar} alt={testimonial.name} />
                                                     <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
                                                 </Avatar>
                                                 <div className="flex gap-1 text-accent mb-4">
