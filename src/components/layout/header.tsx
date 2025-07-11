@@ -1,18 +1,21 @@
 "use client";
 
-import React, { useState } from 'react';
-import Link from 'next/link';
-import { Menu, X } from 'lucide-react';
-import Logo from '@/components/icons/logo';
-import { Button } from '@/components/ui/button';
-import { usePathname } from 'next/navigation';
-import { cn } from '@/lib/utils';
+import React, { useState } from "react";
+import Link from "next/link";
+import { Menu, X } from "lucide-react";
+import Logo from "@/components/icons/logo";
+import { Button } from "@/components/ui/button";
+import { usePathname } from "next/navigation";
+import { cn } from "@/lib/utils";
+import logo from "@/components/ui/logo.jpg";
+import Image from "next/image";
 
 const navLinks = [
-  { href: '/', label: 'Home' },
-  { href: '/services', label: 'Services' },
-  { href: '/about', label: 'About Us' },
-  { href: '/contact', label: 'Contact Us' },
+  { href: "/services", label: "Services" },
+  { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact Us" },
+  { href: "/faqs", label: "FAQs" },
+  { href: "/privacy-policy", label: "Privacy" },
 ];
 
 const Header = () => {
@@ -20,10 +23,13 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-[1000] w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
-          <Logo />
+          <div className="flex-shrink-0 flex items-center gap-2">
+            <Image src={logo} alt="Logo" className="h-8 w-8" />
+            <Logo />
+          </div>
         </Link>
 
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
@@ -32,8 +38,8 @@ const Header = () => {
               key={link.href}
               href={link.href}
               className={cn(
-                'transition-colors hover:text-primary',
-                pathname === link.href ? 'text-primary' : 'text-foreground/60'
+                "transition-colors hover:text-primary",
+                pathname === link.href ? "text-primary" : "text-foreground/60"
               )}
             >
               {link.label}
@@ -65,15 +71,22 @@ const Header = () => {
                 href={link.href}
                 onClick={() => setIsOpen(false)}
                 className={cn(
-                  'block rounded-md p-2 text-base font-medium transition-colors hover:bg-secondary hover:text-primary',
-                  pathname === link.href ? 'bg-secondary text-primary' : 'text-foreground'
+                  "block rounded-md p-2 text-base font-medium transition-colors hover:bg-secondary hover:text-primary",
+                  pathname === link.href
+                    ? "bg-secondary text-primary"
+                    : "text-foreground"
                 )}
               >
                 {link.label}
               </Link>
             ))}
             <Button asChild>
-              <Link href="/contact" onClick={() => setIsOpen(false)}>Book a Call</Link>
+              <Link
+                href="https://calendly.com/misandigital/30min"
+                onClick={() => setIsOpen(false)}
+              >
+                Book a Call
+              </Link>
             </Button>
           </div>
         </div>

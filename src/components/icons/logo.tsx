@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Logo = ({ className }: { className?: string }) => (
   <svg
@@ -18,12 +18,18 @@ const Logo = ({ className }: { className?: string }) => (
       fill="url(#gradient)"
     >
       Misan
-      <tspan fill="white">Digital</tspan>
+      <tspan fill="#fbffde">Digital</tspan>
     </text>
     <defs>
       <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style={{ stopColor: 'hsl(var(--primary))', stopOpacity: 1 }} />
-        <stop offset="100%" style={{ stopColor: 'hsl(var(--accent))', stopOpacity: 1 }} />
+        <stop
+          offset="0%"
+          style={{ stopColor: "hsl(var(--primary))", stopOpacity: 1 }}
+        />
+        <stop
+          offset="100%"
+          style={{ stopColor: "hsl(var(--accent))", stopOpacity: 1 }}
+        />
       </linearGradient>
     </defs>
   </svg>
