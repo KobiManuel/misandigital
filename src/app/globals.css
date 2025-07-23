@@ -25,7 +25,7 @@
     --ring: 222.2 84% 4.9%;
     --radius: 0.5rem;
   }
- 
+
   .dark {
     --background: 159 96% 9%;
     --foreground: 0 0% 98%;
@@ -69,4 +69,17 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 10px;
+  background: var(--primary);
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #aaf387;
+  border-radius: 5px;
+  cursor: pointer;
 }

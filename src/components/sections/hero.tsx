@@ -87,7 +87,7 @@ const HeroSection = () => {
       <Image
         src={aiImage}
         alt="AI Robot"
-        className="absolute bottom-0 -right-[10%] w-full h-full object-contain hidden sm:block"
+        className="absolute bottom-0 -right-[10%] w-full h-full object-contain block"
       />
       <div className="z-50 container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative flex justify-center text-center sm:justify-start sm:text-left">
         <div className="w-full max-w-2xl">
