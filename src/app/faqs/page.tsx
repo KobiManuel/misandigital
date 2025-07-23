@@ -158,13 +158,13 @@ export default function FAQPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="/contact"
-                className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary/90 transition-colors duration-200"
+                href="/prohibited-policy"
+                className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-secondary bg-primary hover:bg-primary/90 transition-colors duration-200"
               >
-                Contact Us
+                Disclaimer
               </a>
               <a
-                href="/book-call"
+                href="https://calendly.com/misandigital/30min"
                 className="inline-flex items-center justify-center px-8 py-3 border border-primary text-base font-medium rounded-md text-primary bg-transparent hover:bg-primary hover:text-white transition-colors duration-200"
               >
                 Book Your Free Strategy Session
@@ -183,8 +183,8 @@ export default function FAQPage() {
               your business.
             </p>
             <a
-              href="/book-call"
-              className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-md text-white bg-primary hover:bg-primary/90 transition-colors duration-200"
+              href="https://calendly.com/misandigital/30min"
+              className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-md text-secondary bg-primary hover:bg-primary/90 transition-colors duration-200"
             >
               Book Your Free Strategy Call
             </a>

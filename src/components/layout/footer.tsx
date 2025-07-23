@@ -114,10 +114,10 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/faqs"
+                  href="/prohibited-policy"
                   className="text-sm text-muted-foreground hover:text-primary"
                 >
-                  FAQs
+                  Disclaimer
                 </Link>
               </li>
             </ul>

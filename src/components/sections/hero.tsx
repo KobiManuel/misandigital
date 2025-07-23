@@ -109,7 +109,7 @@ const HeroSection = () => {
           </AnimatedWrapper>
           <AnimatedWrapper delay={200}>
             <p className="mt-6 text-lg text-muted-foreground text-left">
-              Turning Ideas into Unstoppable Brands and Market Leaders - A
+              Turning Ideas into Unstoppable Brands and Market Leaders - We're a
               Digital Marketing, AI Automation & Creative Agency
             </p>
           </AnimatedWrapper>

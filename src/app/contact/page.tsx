@@ -97,7 +97,7 @@ export default function ContactPage() {
                     href="tel:+971505175180"
                     className="text-primary hover:underline"
                   >
-                    +971 50 517 518 0
+                    +234 813 476 2781
                   </a>
                 </div>
               </div>
@@ -110,7 +110,7 @@ export default function ContactPage() {
                   <p className="text-muted-foreground">
                     Visit our office for a face-to-face meeting.
                   </p>
-                  <p className="text-primary">Dubai, UAE</p>
+                  <p className="text-primary">Lagos, Nigeria</p>
                 </div>
               </div>
             </div>

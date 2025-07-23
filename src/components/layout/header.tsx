@@ -15,7 +15,7 @@ const navLinks = [
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact Us" },
   { href: "/faqs", label: "FAQs" },
-  { href: "/privacy-policy", label: "Privacy" },
+  { href: "/industries-we-cover", label: "Industries" },
 ];
 
 const Header = () => {

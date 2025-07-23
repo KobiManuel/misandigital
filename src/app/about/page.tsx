@@ -139,7 +139,7 @@ export default function AboutPage() {
             </p>
             <a
               href="https://calendly.com/misandigital/30min"
-              className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary/90 transition-colors duration-200"
+              className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-secondary bg-primary hover:bg-primary/90 transition-colors duration-200"
             >
               Book Your Free Strategy Session
             </a>
