@@ -80,7 +80,7 @@ export default function ContactPage() {
                     href="mailto:support@misandigital.com"
                     className="text-primary hover:underline"
                   >
-                    support@misandigital.com
+                    misandigital@outlook.com
                   </a>
                 </div>
               </div>
