@@ -68,7 +68,7 @@ export default function AboutPage() {
           <AnimatedWrapper delay={200}>
             <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
               <Image
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&q=80"
+                src="https://plus.unsplash.com/premium_photo-1677529496297-fd0174d65941?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Creative team working on a project"
                 width={600}
                 height={400}
