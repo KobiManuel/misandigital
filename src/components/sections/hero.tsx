@@ -98,7 +98,7 @@ const HeroSection = () => {
                 <span className="bg-gradient-to-r from-primary via-accent to-white bg-clip-text text-transparent">
                   ART
                 </span>
-                NER FOR
+                NER
               </span>
               <br />
               DIGITAL{" "}
